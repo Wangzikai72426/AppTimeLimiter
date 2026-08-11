@@ -222,9 +222,9 @@ void MainWindow::onAddToLimited()
         return;
     }
 
-    // 如果是本程序，幽默一下
+    // 如果是本程序，
     if (m_contextAppName == "AppTimeLimiter.exe") {
-        QMessageBox::warning(this, "提示", "你想限制自己？😂");
+        QMessageBox::warning(this, "提示", "不能对本程序限时");
         return;
     }
 
